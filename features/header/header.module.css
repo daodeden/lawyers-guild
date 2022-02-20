@@ -1,0 +1,8 @@
+.links:hover {
+    color: green;
+    text-decoration: none !important;
+}
+
+.hamburgerLinks:hover {
+    text-decoration: none !important;
+}
