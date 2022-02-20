@@ -1,10 +1,10 @@
 import React from 'react'
 import { Box } from '@chakra-ui/react'
 
-export default function Price() {
+export default function Map() {
 	return (
 		<Box>
-  Стоимость услуг
+ Карта
 	</Box>
 	)
 }
