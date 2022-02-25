@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <Box as="header" m={10} fontWeight="500">
-      <Flex alignItems="center" justifyContent="space-between" m="-40px -30px">
+      <Flex alignItems="center" justifyContent="space-between" m="40px 30px">
         <Flex>
           <Link href="/" cursor="pointer">
             <Image
