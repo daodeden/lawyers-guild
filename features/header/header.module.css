@@ -1,0 +1,32 @@
+@media screen and (min-width: 1024px) {
+  .hamburgerMenu {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .headerLinks {
+    display: none !important;
+  }
+
+  .getCall {
+    display: none !important;
+  }
+}
+
+.phoneNumber {
+  margin-left: auto;
+}
+
+.links {
+  padding: 0 14px;
+}
+
+.links:hover {
+  color: #17b9a5;
+  text-decoration: none !important;
+}
+
+.hamburgerLinks:hover {
+  text-decoration: none !important;
+}
