@@ -1,10 +1,5 @@
 import {
-  Icon,
   HamburgerIcon,
-  AddIcon,
-  ExternalLinkIcon,
-  RepeatIcon,
-  EditIcon,
 } from "@chakra-ui/icons"
 import {
   Menu,
@@ -14,16 +9,19 @@ import {
   IconButton,
   Link,
 } from "@chakra-ui/react"
+import React from "react"
+
+import colors from '../../theme/colors'
 import styles from ".././header.module.css"
 
 export default function HamburgerMenu() {
+
   return (
     <Menu>
       <MenuButton
         as={IconButton}
         aria-label="Options"
-        icon={<HamburgerIcon />}
-        variant="outline"
+        icon={<HamburgerIcon color={colors.mainColor} />}
       />
       <MenuList>
         <MenuItem>

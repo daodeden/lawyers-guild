@@ -4,10 +4,9 @@ import styles from "../header.module.css"
 export default function HeaderLinks() {
   return (
     <Flex
-      justifyContent="space-between"
+      justifyContent="center"
       flex="1 1 auto"
       marginX="6px"
-      marginRight="50px"
     >
       <Link className={styles.links} href="/companies">
         Юридическим лицам
