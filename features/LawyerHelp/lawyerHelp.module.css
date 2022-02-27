@@ -1,0 +1,62 @@
+@media screen and (min-width: 1024px) {
+  .main {
+    color: white;
+    font-family: Montserrat;
+    background-color: #17B9A5;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  .title {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 17px;
+  }
+  .description {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 43px;
+  }
+  .phone {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 17px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .main {
+    color: white;
+    font-family: Montserrat;
+    background-color: #17B9A5;
+    text-align: center;
+    padding: 65px 10px 65px 10px;
+  }
+  .title {
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .description {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 27px;
+  }
+  .phone {
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+}
+    
+    
+    
+    
+
+    
