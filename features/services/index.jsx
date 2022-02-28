@@ -1,15 +1,8 @@
 import React from 'react'
-import Link from 'next/link'
+import styles from './services.module.css'
 
-export default function Services(props) {
-
+export default function Services() {
 	return (
-		<>
-			{props.data.services.map(service => (
-				<Link href={`${props.data.slug}/${service.slug}`} key={service.slug}>
-				{service.title}
-				</Link>
-			))}
-		</>
+		<div>Services</div>
 	)
 }

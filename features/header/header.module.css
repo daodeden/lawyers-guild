@@ -1,6 +1,27 @@
+.header {
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 680px) {
+  .header {
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .hamburgerMenu {
     display: none !important;
+  }
+
+  .header {
+    padding: 16px 24px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    font-size: 14px;
+    padding: 8px 16px;
   }
 }
 
@@ -20,6 +41,12 @@
 
 .links {
   padding: 0 14px; 
+}
+
+@media screen and (max-width: 1200px) {
+  .links {
+    padding: 8px;
+  }
 }
 
 .links:hover {
