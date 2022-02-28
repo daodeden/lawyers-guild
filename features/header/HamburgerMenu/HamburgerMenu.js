@@ -23,7 +23,7 @@ export default function HamburgerMenu() {
         aria-label="Options"
         icon={<HamburgerIcon color={colors.mainColor} />}
       />
-      <MenuList>
+      <MenuList  >
         <MenuItem>
           <Link className={styles.hamburgerLinks} href="/companies">Юридическим лицам</Link>
         </MenuItem>
