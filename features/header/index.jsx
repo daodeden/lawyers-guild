@@ -1,23 +1,21 @@
-import React, { useEffect } from "react"
-import { Flex } from "@chakra-ui/react"
+import React from "react"
 import styles from '../header/header.module.css'
-import { Link, Text } from "@chakra-ui/react"
+import { Link, Text, Flex } from "@chakra-ui/react"
 import HamburgerMenu from "./HamburgerMenu/HamburgerMenu"
 import HeaderLinks from "./HeaderLinks/HeaderLinks"
 import PhoneNumber from "./Phone/Phone"
 import DefaultButton from '../DefaultButton'
+import colors from '../theme/colors'
 
 export default function Header() {
-  useEffect(()  =>{
-    console.log(styles);
-  } , [])
   
   return (
-    <Flex as="header" mt="24px" mb="32px" justifyContent="center" fontWeight="500">
-      <Flex alignItems="center" justifyContent="space-between" px="30"  w="1300px">
+    <Flex className={styles.header} as="header" bgColor="#fff" boxShadow="sm" zIndex="100" top="0px" left="0px" right="0px" position="sticky" justifyContent="center" fontWeight="500">
+      <Flex alignItems="center" justifyContent="space-between"   w="1260px">
         <Flex >
           <Link href="/" cursor="pointer">
-            <Text>ГЮ</Text>
+            <Text fontSize="18px" fontWeight="700" color={colors.mainColor}>ГЮ</Text>
+            
           </Link>
         </Flex>
         <Flex className={styles.headerLinks}>

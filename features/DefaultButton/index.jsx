@@ -17,6 +17,6 @@ export default function DefaultButton({children, ...restProps}) {
 	
 
 	return (
-		<Button bgColor={colors.mainColor} colorScheme="cyan" color="#fff" {...buttonProps} {...restProps} >{children}</Button>
+		<Button bgColor={colors.mainColor} colorScheme="blue" color="#fff" {...buttonProps} {...restProps} >{children}</Button>
 	)
 }
